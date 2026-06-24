@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local datasets
+*.csv
+*.zip
+
+# Databricks and local environment files
+.databricks/
+.env
+.venv/
+__pycache__/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
