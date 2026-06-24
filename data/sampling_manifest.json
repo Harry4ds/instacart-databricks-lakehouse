@@ -1,0 +1,31 @@
+{
+  "project_name": "Instacart Databricks Free Edition Portfolio Dataset",
+  "sampling_method": {
+    "prior_order_products": "Uses the uploaded 750,000-row sample from order_products__prior.csv.",
+    "orders": "Includes orders referenced by the sampled prior-order rows, plus train orders for the same users when matching train line items are available.",
+    "train_order_products": "Filtered to train orders belonging to users represented in the prior sample.",
+    "dimensions": "All products, aisles, and departments are retained."
+  },
+  "row_counts": {
+    "orders_project": 109467,
+    "orders_project_prior": 74555,
+    "orders_project_train": 34912,
+    "order_products_prior_project": 750000,
+    "order_products_train_project": 380617,
+    "products": 49688,
+    "aisles": 134,
+    "departments": 21
+  },
+  "distinct_counts": {
+    "sample_users": 54726,
+    "sample_prior_orders": 74555,
+    "included_train_orders": 34912,
+    "products_used_in_transactions": 36117
+  },
+  "important_limitations": [
+    "The prior-order file is an order-level subset of the full Instacart prior dataset.",
+    "Customer lifetime and frequency measures must be described as sample-based.",
+    "The dataset is suitable for pipeline, data-quality, product, basket, reorder, and sampled customer-behaviour analysis.",
+    "Do not claim that customer histories are complete across all Instacart orders."
+  ]
+}
