@@ -272,7 +272,7 @@ The complete dashboard export is available here:
 ```text
 instacart-databricks-lakehouse/
 ├── notebooks/
-│   ├── 01_Bronze_Ingestion.ipynb
+│   ├── 01_bronze_ingestion.ipynb
 │   ├── 02_silver_cleaning_and_model.ipynb
 │   ├── 03_gold_business_tables.ipynb
 │   ├── 04_data_quality_checks.ipynb
@@ -304,7 +304,7 @@ instacart-databricks-lakehouse/
 
 Run the notebooks in the following sequence:
 
-1. `01_Bronze_Ingestion.ipynb`
+1. `01_bronze_ingestion.ipynb`
 2. `02_silver_cleaning_and_model.ipynb`
 3. `03_gold_business_tables.ipynb`
 4. `04_data_quality_checks.ipynb`
