@@ -345,6 +345,11 @@ Potential future improvements include:
 * Microsoft Fabric implementation
 * CI/CD and automated testing
 
+## Articles
+
+- [From Experience to Understanding: What Two Databricks Learning Tracks Taught Me About the Modern Data Lifecycle](https://medium.com/@harshitpatel4ds/from-experience-to-understanding-what-two-databricks-learning-tracks-taught-me-about-the-modern-ac005a8beebe)
+- [Building an End-to-End Lakehouse on Databricks: Instacart Analytics from Pipeline to Insight](https://medium.com/@harshitpatel4ds/from-experience-to-understanding-what-two-databricks-learning-tracks-taught-me-about-the-modern-ac005a8beebe)
+  
 ## Author
 
 **Harshit Patel**
